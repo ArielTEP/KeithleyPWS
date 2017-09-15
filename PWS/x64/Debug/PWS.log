@@ -1,0 +1,17 @@
+﻿  PWS.cpp
+c:\users\joseoscuro\documents\visual studio 2017\projects\keithleypws\pws\pws.cpp(29): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1772): note: see declaration of 'sprintf'
+c:\users\joseoscuro\documents\visual studio 2017\projects\keithleypws\pws\pws.cpp(50): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\conio.h(452): note: see declaration of 'getch'
+c:\users\joseoscuro\documents\visual studio 2017\projects\keithleypws\pws\pws.cpp(55): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\conio.h(452): note: see declaration of 'getch'
+c:\users\joseoscuro\documents\visual studio 2017\projects\keithleypws\pws\pws.cpp(72): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\string.h(136): note: see declaration of 'strcpy'
+c:\users\joseoscuro\documents\visual studio 2017\projects\keithleypws\pws\pws.cpp(73): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\string.h(93): note: see declaration of 'strcat'
+c:\users\joseoscuro\documents\visual studio 2017\projects\keithleypws\pws\pws.cpp(83): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\string.h(136): note: see declaration of 'strcpy'
+c:\users\joseoscuro\documents\visual studio 2017\projects\keithleypws\pws\pws.cpp(99): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\conio.h(452): note: see declaration of 'getch'
+  PWS.vcxproj -> C:\Users\JoseOscuro\Documents\Visual Studio 2017\Projects\KeithleyPWS\x64\Debug\PWS.exe
+  PWS.vcxproj -> C:\Users\JoseOscuro\Documents\Visual Studio 2017\Projects\KeithleyPWS\x64\Debug\PWS.pdb (Partial PDB)

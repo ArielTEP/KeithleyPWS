@@ -1,0 +1,10 @@
+﻿PWS.obj : error LNK2019: unresolved external symbol _viOpenDefaultRM@4 referenced in function _main
+PWS.obj : error LNK2019: unresolved external symbol _viOpen@20 referenced in function _main
+PWS.obj : error LNK2019: unresolved external symbol _viClose@4 referenced in function "void __cdecl CheckError(char *,unsigned long *,unsigned long *)" (?CheckError@@YAXPADPAK1@Z)
+PWS.obj : error LNK2019: unresolved external symbol _viSetAttribute@12 referenced in function _main
+PWS.obj : error LNK2019: unresolved external symbol _viRead@16 referenced in function _main
+PWS.obj : error LNK2019: unresolved external symbol _viWrite@16 referenced in function _main
+PWS.obj : error LNK2019: unresolved external symbol _viBufRead@16 referenced in function "void __cdecl SendSCPI(char *,unsigned long *,unsigned long *)" (?SendSCPI@@YAXPADPAK1@Z)
+PWS.obj : error LNK2019: unresolved external symbol _viPrintf referenced in function "void __cdecl SendSCPI(char *,unsigned long *,unsigned long *)" (?SendSCPI@@YAXPADPAK1@Z)
+C:\Program Files\IVI Foundation\VISA\Win64\Lib_x64\msc\visa64.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+C:\Users\JoseOscuro\documents\visual studio 2017\Projects\PWS\Debug\PWS.exe : fatal error LNK1120: 8 unresolved externals
