@@ -18,18 +18,20 @@ void main(int argc, _TCHAR* argv[])
 	SendSCPI("OUTPUT 1"); 
 	
 	// set output voltage and current
-	setMeasure(3.0f, 0.1f);
+	setMeasure(5.0f, 0.1f);
 
 	// begin measurement
-	const int samples = 20;
+	const int samples = 50;
 	double voltageArray[samples];
 	double currentArray[samples];
 	int i;
+	delay(10);
 	for (i = 0; i < samples; i++) 
 	{
-		delay(100);
+		
 		voltageArray[i] = readVoltage();
 		currentArray[i] = readCurrent();
+		delay(100); // sample time
 	}
 	
 	writeFile(voltageArray, currentArray, samples);
@@ -46,8 +48,18 @@ void main(int argc, _TCHAR* argv[])
 void setMeasure(double voltage, double current) 
 {
 	printf("Setting voltage(V) & current(A): %f,%f \n", voltage, current);
+	setVolatage(voltage);
+	setCurrent(current);
+}
+
+void setVolatage(double voltage) 
+{
 	ErrorStatus = viPrintf(PWS4000, "VOLT %f\n", voltage);
 	CheckError("Unable to set voltage");
+}
+
+void setCurrent(double current) 
+{
 	ErrorStatus = viPrintf(PWS4000, "CURRENT %f\n", current);
 	CheckError("Unable to set current");
 }
